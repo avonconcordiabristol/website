@@ -15,7 +15,7 @@
 }
 
 .header .jumbotron {
-    background-image: url("MythsPoster.jpg");
+    background-image: url("MythsPosterFull.jpg");
     background-size: contain; /* Ensures the image covers the entire screen */
     background-position: center top; /* Keeps the image centered at the top */
     background-repeat: no-repeat;
