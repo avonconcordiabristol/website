@@ -52,23 +52,13 @@
 	margin: 5px 0;
 }
 
-@media (max-width: 576px) {
-	.navbar-brand {
-	  padding-left: 8px;
-	}
-  
-	.navbar-toggler {
-	  margin-right: 8px;
-	}
-  }
-
 /* Mobile-specific styles */
 @media (max-width: 767px) {
 	.navbar-brand {
-	  margin-right: 15px; /* Less margin for mobile if needed */
+	  margin-right: 40px; /* Less margin for mobile if needed */
 	}
   
 	.navbar-toggler {
-	  margin-left: 15px; /* More margin between title and toggler on mobile */
+	  margin-left: 40px; /* More margin between title and toggler on mobile */
 	}
   }
