@@ -62,3 +62,9 @@
 	  margin-left: 40px; /* More margin between title and toggler on mobile */
 	}
   }
+
+  @media (max-width: 576px) {
+	.navbar-brand img {
+	  width: 200px !important;
+	}
+  }
