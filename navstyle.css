@@ -67,10 +67,20 @@
 	transform: translateX(-50%);
 }
 
+.logo-img {
+	width: 300px;
+	height: auto;
+	transition: width 0.3s ease;
+}
+
 /* Responsive adjustment for small screens */
 @media (max-width: 800px) {
 	.centered-logo {
 		left: 35%; /* or even 40% if needed */
 		transform: translateX(-45%);
+	}
+
+	.logo-img {
+		width: 220px; /* Shrink from 300px */
 	}
 }
