@@ -1,0 +1,89 @@
+.container {
+	margin: 4% auto;
+	margin-top: 0px;
+	font-family: sans-serif;
+	padding-bottom: 250px;
+}
+
+.container h1{
+	font-size: 1.4em;
+}
+
+.container h2{
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+
+.social-buttons {
+	display: flex;
+	gap: 60px; /* You can increase or decrease the spacing */
+	justify-content: center; /* Optional: center the buttons horizontally */
+	flex-wrap: wrap; /* Optional: stack nicely on smaller screens */
+  }
+
+/* Shared social button styles */
+.btn-instagram,
+.btn-facebook {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn-instagram i,
+.btn-facebook i {
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+/* Instagram hover */
+.btn-instagram:hover {
+  background-color: #E1306C; /* Instagram pink */
+  color: white;
+  border-color: #E1306C;
+}
+
+/* Facebook hover */
+.btn-facebook:hover {
+  background-color: #3b5998; /* Facebook blue */
+  color: white;
+  border-color: #3b5998;
+}
+
+.btn-youtube {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	border-radius: 0;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	transition: all 0.3s ease;
+  }
+  
+  .btn-youtube i {
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+  }
+  
+  /* Hover effect with YouTube red */
+  .btn-youtube:hover {
+	background-color: #FF0000; /* YouTube red */
+	color: white;
+	border-color: #FF0000;
+  }

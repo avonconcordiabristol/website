@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+	<!-- CSS Styling -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="navstyle.css">
+	<link rel="stylesheet" href="footerstyle.css">
+	<link rel="stylesheet" href="home.css">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="Icon.png">
+
+    <title>Avon Concordia - Home</title>
+  </head>
+  
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        
+        <!-- Left empty div to balance spacing -->
+        <div></div>
+
+        <!-- Brand Logo (Centered) -->
+      <a class="navbar-brand position-absolute start-50 translate-middle-x" href="index.html">
+        <img src="Logo.png" alt="Avon Concordia" height="auto" width="300px">
+      </a>
+
+        <!-- Navbar Toggler (Right-Aligned) -->
+        <button class="custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+			<span class="custom-toggler-icon"></span>
+			<span class="custom-toggler-icon"></span>
+			<span class="custom-toggler-icon"></span>
+		</button>
+
+    </div>
+  </nav>
+
+  <!-- Offcanvas Navigation (Slides in from the Right) -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="tickets.html">Tickets</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="concerts.html">Our concerts</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/@avonconcordia">YouTube</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/avonconcordiabristol">Instagram</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/share/1BNGoN1B5P/?mibextid=wwXIfr">Facebook</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+  
+  <body>
+
+	<!-- Image Section (Header) -->
+	<div class="header">
+	<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0px;">
+		<div class="container text-center">
+		<div class="name">
+		</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<!-- Homepage Section -->
+	<section class="content">
+		
+	<div class="flex-container">
+		
+		<!-- Welcome section -->
+		<div class="flex-item">
+		<div class="col">
+			<!-- Content for the left column - Welcome -->
+			<h2>Welcome</h2>
+			<p>
+				Welcome to our website!
+				We are the Avon Concordia, a dynamic new orchestra in Bristol, passionate about performing some of the best music, with local talent at the heart of our project.
+				We run regular concerts throughout the year, so go ahead and check out our next installment; we would love to see you there!
+
+			</p>
+			<!-- Read More Button -->
+            <div class="text-center">
+				<a href="about.html" class="btn btn-primary">Read More</a>
+			</div>
+		</div>
+		</div>
+
+		<!-- Upcoming concerts section -->
+		<div class="flex-item">
+			<div class="col">
+				<!-- Content for the left column - Welcome -->
+				<h2>Upcoming concerts</h2>
+				<p>
+					A Triptych of Eras: Join us for our second concert, featuring orchestral music spanning the 19th, 20th and 21st centuries!
+					<br><br>
+					Sun 4 May 2025<br>
+					7:30 PM - 9:15 PM<br>
+					Victoria Methodist Church, BS8 1NU
+				</p>
+
+				<!-- Poster Image -->
+				<div class="text-center">
+					<img src="ErasPosterFull.png" alt="Concert Poster" style="max-width:60%; height:auto; margin: 20px 0;">
+				  </div>
+				
+				<!-- Buy Tickets Button -->
+				<div class="text-center">
+					<a href="tickets.html" class="btn btn-primary">Details & Tickets</a>
+				</div>
+			</div>
+			</div>
+
+		<!-- Concerts archive section -->
+		<div class="flex-item">
+			<div class="col">
+				<!-- Content for the left column - Welcome -->
+				<h2>Past concerts</h2>
+				<p>
+					Since our founding, Avon Concordia has brought together talented musicians to perform a wide range of repertoire — from classical favourites to contemporary works.
+					<br>
+					Explore our archive to revisit past performances, view programmes, and enjoy recordings that capture the spirit of our concerts.
+				</p>
+
+				<!-- Poster Image -->
+				<div class="text-center">
+					<img src="MythsPosterFull.png" alt="Concert Poster" style="max-width:60%; height:auto; margin: 20px 0;">
+				  </div>
+
+				<!-- Read More Button -->
+				<div class="text-center">
+					<a href="concerts.html" class="btn btn-primary">Concerts Archive</a>
+				</div>
+			</div>
+			</div>
+
+		<!-- Social media section -->
+		<div class="flex-item">
+			<div class="col">
+				<!-- Content for the central column - About -->
+				<h2>Follow Us</h2>
+				<p>
+					Stay connected with Avon Concordia on social media to get the latest updates on upcoming concerts, behind-the-scenes content, rehearsal clips, and highlights from our performances.
+					<br>
+					We regularly share photos, videos, and stories that showcase the energy and creativity of our players — so don’t miss out!
+				</p>
+				
+			</div>
+			<div class="social-buttons">
+				<a class="btn btn-youtube" href="https://www.youtube.com/@avonconcordia" target="_blank">
+					<i class="fab fa-youtube"></i> YouTube
+				  </a>
+				<a class="btn btn-instagram" href="https://instagram.com/avonconcordiabristol" target="_blank">
+				  <i class="fab fa-instagram"></i> Instagram
+				</a>
+				<a class="btn btn-facebook" href="https://www.facebook.com/share/1BNGoN1B5P/?mibextid=wwXIfr" target="_blank">
+				  <i class="fab fa-facebook-f"></i> Facebook
+				</a>
+			  </div>
+			</div>
+
+		<!-- Contact Us section -->
+		<div class="flex-item">
+			<div class="col">
+			<h2>Contact Us</h2>
+			<p>
+				If you'd like to find out more about our orchestra, upcoming concerts, or have any other enquiries, we’d love to hear from you!
+				Whether you're a prospective audience member, musician, or simply curious about what we do, feel free to get in touch.
+			</p>
+			<p>
+				📧 You can reach us via email at <a href="mailto:avonconcordiabristol@gmail.com">avonconcordiabristol@gmail.com</a>, or message us through our social media channels below.
+			</p>
+			</div>
+		</div>
+
+	</div>
+	
+	</section>
+
+
+
+
+
+	<!-- Footer Section -->
+	<footer class="container-fluid text-center">
+
+		<!-- Footer Logo -->
+        <a href="index.html">
+            <img src="LogoInverted.png" alt="Brand Logo" class="footer-logo">
+        </a>
+
+
+
+		<div class="footer-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="tickets.html">Tickets</a></li>
+				<li><a href="concerts.html">Our concerts</a></li>
+				<li><a href="https://www.youtube.com/@avonconcordia">YouTube</a></li>
+				<li><a href="https://instagram.com/avonconcordiabristol">Instagram</a></li>
+				<li><a href="https://www.facebook.com/share/1BNGoN1B5P/?mibextid=wwXIfr">Facebook</a></li>
+			</ul>
+		</div>
+		<div class="row">
+		<div class="col">
+		<p class="copyright">Copyright: Avon Concordia 2025</p>
+		</div>
+		</div>
+	</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	
+	<script>
+		// Function to toggle the opaque class on the navbar
+		function toggleNavbarBackground() {
+		  var navbar = document.querySelector('.navbar');
+		  if (window.scrollY > 100) { // Adjust the scroll threshold as needed
+			navbar.classList.add('opaque');
+		  } else {
+			navbar.classList.remove('opaque');
+		  }
+		}
+	  
+		// Listen for the scroll event
+		window.addEventListener('scroll', toggleNavbarBackground);
+	  
+		// Call the function initially to set the initial state
+		toggleNavbarBackground();
+	  </script>
+
+	<!-- Shrink header on scroll -->
+	<script>
+		const header = document.querySelector('.header');
+		const navbarHeight = document.querySelector('.navbar').offsetHeight;
+	
+		window.addEventListener('scroll', () => {
+		const scrollY = window.scrollY;
+	
+		// Check if the screen width is at least 768px (not mobile)
+		if (window.innerWidth >= 768) {
+			if (scrollY > navbarHeight) {
+			let shrinkAmount = Math.min((scrollY - navbarHeight) / 1000, 1); // 1000 = how slow the shrinking happens
+			let scale = 1 - shrinkAmount * 0.3; // scale from 1 down to 0.7
+			header.style.transform = `scale(${scale})`;
+			} else {
+			header.style.transform = 'scale(1)';
+			}
+		} else {
+			// On mobile, reset the image scale to 1 and do not apply shrinking
+			header.style.transform = 'scale(1)';
+		}
+		});
+	</script>
+
+</body>
+</html>

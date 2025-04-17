@@ -1,0 +1,62 @@
+footer{
+	background: rgb(128, 0, 0);
+	padding: 40px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	font-size: 1.0em;
+	font-family: Baskerville, Garamond, serif;
+}
+
+.brand-title {
+    font-size: 40px; /* Font size for brand title */
+    font-weight: normal; /* Bold text */
+    color: white; /* Text color */
+	font-family: Baskerville, Garamond, serif;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.copyright {
+	padding-top: 20px;
+}
+
+
+/* Footer Navigation Styling */
+.footer-nav {
+    text-align: center; /* Centers the navigation links */
+    padding: 10px 0; /* Adds padding above and below the navigation */
+    background-color: transparent; /* Light background color */
+}
+
+.footer-nav ul {
+    list-style-type: none; /* Removes default list styling */
+    margin: 0;
+    padding: 0;
+    display: inline-flex; /* Aligns list items in a row */
+}
+
+.footer-nav li {
+    margin: 0 15px; /* Adds space between each link */
+}
+
+.footer-nav a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Black text color */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: normal; /* Optional: makes text bold */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-nav a:hover {
+    color: lightgray; /* Changes text color on hover */
+}
+
+.footer-logo {
+    max-width: 300px; /* Adjust size as needed */
+    height: auto;
+}

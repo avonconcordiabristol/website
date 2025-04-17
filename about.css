@@ -1,0 +1,37 @@
+.container {
+	margin: 4% auto;
+	margin-top: 0px;
+	font-family: sans-serif;
+	padding-bottom: 250px;
+}
+
+.container h1{
+	font-size: 1.4em;
+}
+
+.container h2{
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header .jumbotron {
+	background-image: url("TheOrchestra.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1; /* Ensures the image stays behind the text */
+  }
