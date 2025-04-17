@@ -68,9 +68,9 @@
 }
 
 /* Responsive adjustment for small screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.centered-logo {
-		left: 45%; /* or even 40% if needed */
+		left: 35%; /* or even 40% if needed */
 		transform: translateX(-45%);
 	}
 }
