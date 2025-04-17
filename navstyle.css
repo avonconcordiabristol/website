@@ -55,16 +55,10 @@
 /* Mobile-specific styles */
 @media (max-width: 767px) {
 	.navbar-brand {
-	  margin-right: 40px; /* Less margin for mobile if needed */
+	  margin-right: 80px; /* Less margin for mobile if needed */
 	}
   
 	.navbar-toggler {
-	  margin-left: 40px; /* More margin between title and toggler on mobile */
-	}
-  }
-
-  @media (max-width: 576px) {
-	.navbar-brand img {
-	  width: 200px !important;
+	  margin-left: 80px; /* More margin between title and toggler on mobile */
 	}
   }
