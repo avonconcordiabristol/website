@@ -62,9 +62,15 @@
 	}
   }
 
-  @media (max-width: 600px) {
-	.navbar-brand {
-		left: 45% !important; /* instead of 50% */
-		transform: translateX(-45%) !important; /* instead of -50% */
+  .centered-logo {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 600px) {
+	.centered-logo {
+		left: 45%; /* or even 40% if needed */
+		transform: translateX(-45%);
 	}
 }
