@@ -127,15 +127,15 @@ h2 {
 }
 
 /* Layout for smaller devices */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .content {
-    padding-top: 2vh; /* Increase padding for smaller screens */
+    padding-top: 0.5vh; /* Increase padding for smaller screens */
   }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 600px) {
   .content {
-    padding-top: 2vh; /* Even more space for very small screens */
+    padding-top: 0.5vh; /* Even more space for very small screens */
   }
 }
 
