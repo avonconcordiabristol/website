@@ -64,6 +64,7 @@
 
   @media (max-width: 600px) {
 	.navbar-brand {
-	  transform: translateX(-50px); /* Adjust this value as needed */
+		left: 45% !important; /* instead of 50% */
+		transform: translateX(-45%) !important; /* instead of -50% */
 	}
-  }
+}
