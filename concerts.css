@@ -24,3 +24,23 @@
     position: relative;
     z-index: -1;
 }
+
+.section-banner {
+    background-image: url("MythsPoster.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 4 / 5; /* Or whatever your image ratio is */
+    margin-bottom: 30px;
+}
+
+.section-banner-eras {
+    background-image: url("ErasPoster.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 4 / 5; /* Or whatever your image ratio is */
+    margin-bottom: 30px;
+}

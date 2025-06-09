@@ -15,12 +15,12 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="navstyle.css">
 	<link rel="stylesheet" href="footerstyle.css">
-	<link rel="stylesheet" href="concerts.css">
+	<link rel="stylesheet" href="register.css">
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="Icon.png">
 
-    <title>Avon Concordia - Concerts</title>
+    <title>Avon Concordia - Join</title>
   </head>
   
   <!-- Navigation bar -->
@@ -34,6 +34,7 @@
 	  <a class="navbar-brand position-absolute centered-logo" href="index.html">
 		<img src="Logo.png" alt="Avon Concordia" class="logo-img">
 	  </a>
+
         <!-- Navbar Toggler (Right-Aligned) -->
         <button class="custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
 			<span class="custom-toggler-icon"></span>
@@ -61,10 +62,10 @@
 			<li class="nav-item">
                 <a class="nav-link" href="tickets.html">Tickets</a>
             </li>
-			<li class="nav-item active">
+			<li class="nav-item">
                 <a class="nav-link" href="concerts.html">Our concerts</a>
             </li>
-			<li class="nav-item">
+			<li class="nav-item active">
                 <a class="nav-link" href="register.html">Join us</a>
             </li>
 			<li class="nav-item">
@@ -82,56 +83,35 @@
   
   <body>
 
-	<section>
-		<div class="flex-container">
-			<div class="flex-item">
-			<div class="col text-center">
-				<!-- Image -->
-				<div class="section-banner-eras"></div>
+	<!-- Page title -->
+	<div class="header">
+	<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0px;">
+		<div class="container text-center">
+		<div class="name">
+		</div>
+		</div>
+	</div>
+	</div>
 
-				<!-- Content for the central column - About -->
-				<h2>A Triptych of Eras</h2>
-				<p>
-				Join the Avon Concordia for our second orchestral programme, featuring three distinct works spanning the 19th, 20th and 21st centuries.
-				We begin with the world premiere of an exciting new work by Liam O'Connell, who also plays double bass with the orchestra! We are then joined by elite violinist Rhia Thomas who will perform Mendelssohn's demanding Violin Concerto.
-				After a short interval, we will hear a rarely performed work by Kurt Weill (best known by far for 'Mack the Knife'), his neo-classical 2nd Symphony.
-				</p>
 
-				<!-- Watch Button -->
-				<div class="text-center">
-				<a href="https://youtube.com/playlist?list=PL7ouvbS2nWsbVkuVW1YCxz3LEyp-DDyEs&feature=shared" class="btn btn-primary">Watch on Youtube</a>
-				</div>
-				<br><br>
-			</div>
+
+	<!-- Text Section -->
+	<section class="form-section">
+		<h2 class="form-heading">Register Your Interest</h2>
+
+		<div class="form-container">
+			<!-- Loading message -->
+			<div id="form-loading" class="form-loading">Loading…</div>
+
+			<!-- Iframe wrapper -->
+			<div class="responsive-form">
+			<iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScozDIzuI9GGVjjoA-c0SoI2h7WtVzl-vbImhR1-ut5L7oglg/viewform?embedded=true"
+					allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
 
-	<section>
-		<div class="flex-container">
-			<div class="flex-item">
-			<div class="col text-center">
-				<!-- Image -->
-				<div class="section-banner"></div>
 
-				<!-- Content for the central column - About -->
-				<h2>A Serenade to Myths & Memories</h2>
-				<p>
-				Join Bristol's newest orchestra, the 'Avon Concordia' in a musical feast of well-established and newly revived works.
-				We begin with a lost work by English composer Alice Mary Smith, an exciting opportunity to hear a piece played for the first time in over a century (we think!).
-				We then take a gentle stroll through the woods at night with some soothing Mendelssohn, before being taken through a whirlwind of dances, lullabies and songs found in Fauré's delightful 'Dolly Suite'.
-				Heroism and grandeur then sweep in with Robert Schumann at his greatest, in a work that describes the great forests, hills and castles of Western Germany.
-				</p>
-
-				<!-- Watch Button -->
-				<div class="text-center">
-				<a href="https://youtube.com/playlist?list=PL7ouvbS2nWsaJY55MyqlvnjETxknzLaoI&si=3EB3d21yqknmagkz" class="btn btn-primary">Watch on Youtube</a>
-				</div>
-				<br><br>
-			</div>
-			</div>
-		</div>
-	</section>
 
 	
 
@@ -212,6 +192,18 @@
 		}
 		});
 	</script>
+
+	<!-- Loading message -->
+	<script>
+		const iframe = document.getElementById('google-form');
+		const loadingMessage = document.getElementById('form-loading');
+
+		iframe.addEventListener('load', () => {
+			loadingMessage.style.display = 'none';
+			iframe.style.display = 'block';
+		});
+	</script>
+
 
 </body>
 </html>
