@@ -44,3 +44,13 @@
     aspect-ratio: 4 / 5; /* Or whatever your image ratio is */
     margin-bottom: 30px;
 }
+
+.section-banner-tchaikovsky {
+    background-image: url("TchaikovskysFifthPoster.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 4 / 5; /* Or whatever your image ratio is */
+    margin-bottom: 30px;
+}
