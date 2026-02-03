@@ -3,9 +3,7 @@
 
 .header .jumbotron {
     background-color:transparent !important;
-	background-image: url("ConcertPicture.png");
-	
-    border-radius: 0 !important;
+        background-image: url("ConcertPicture.png");
 	
 	height:940px;
 	background-position: bottom;

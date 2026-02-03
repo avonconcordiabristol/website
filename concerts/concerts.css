@@ -15,7 +15,7 @@
 }
 
 .header .jumbotron {
-    background-image: url("MythsPosterFull.png");
+    background-image: url("../MythsPosterFull.png");
     background-size: contain; /* Ensures the image covers the entire screen */
     background-position: center top; /* Keeps the image centered at the top */
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .section-banner {
-    background-image: url("MythsPoster.jpg");
+    background-image: url("../MythsPoster.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +36,7 @@
 }
 
 .section-banner-eras {
-    background-image: url("ErasPoster.png");
+    background-image: url("../ErasPoster.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -46,7 +46,7 @@
 }
 
 .section-banner-tchaikovsky {
-    background-image: url("TchaikovskysFifthPoster.png");
+    background-image: url("../TchaikovskysFifthPoster.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,7 +56,7 @@
 }
 
 .section-banner-selene {
-    background-image: url("SelenePoster.png");
+    background-image: url("../SelenePoster.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
